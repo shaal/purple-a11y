@@ -1,0 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - command: |
+      echo "node cli.js -c 2 -u "https://www.tuftsmedicine.org" -k "test:test@test.com" -b 1 -p 5"
